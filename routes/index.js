@@ -1,19 +1,19 @@
 var express = require('express');
 var router = express.Router();
 
-// home page
+// home view
 router.get('/', function(req, res){
-	res.send({title:"Happy"});
+	res.render('index',{title:'Home'});
 });
 
-// home page
+// about view
 router.get('/', function(req, res){
-	res.send({title:"Happy"});
+	res.render('about', {title:'About'});
 });
 
-// home page
+// contact view
 router.get('/', function(req, res){
-	res.send({title:"Happy"});
+	res.render('contact', {title:'Contact'});
 });
 
 module.exports = router;
