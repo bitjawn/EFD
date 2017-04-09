@@ -1,6 +1,6 @@
 @echo off
 
-title Project III To Github
+title Restaurant To Github
 prompt $sGithub$s$e$s
 
 if errorlevel 1 goto one

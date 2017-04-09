@@ -1,6 +1,6 @@
 @echo off
 
-title Project III Package Manager
+title Restaurant Package Manager
 prompt $sPackage$s$e$s
 
 if errorlevel 1 goto one

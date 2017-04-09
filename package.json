@@ -4,7 +4,6 @@
   "description": "Express API application",
   "main": "app.js",
   "scripts": {
-    "tests": "mocha test",
     "start": "nodemon app"
   },
   "author": "Rick Walker",

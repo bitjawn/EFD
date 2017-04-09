@@ -11,7 +11,7 @@ var app = express();
 var routes = require('./routes/index');
 
 /// View engine
-app.engine('dust',cons.dust);
+app.engine('dust', cons.dust);
 
 // Setting view engine and views directory location
 app.set('view engine','dust');
