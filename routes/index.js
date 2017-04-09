@@ -7,12 +7,12 @@ router.get('/', function(req, res){
 });
 
 // about view
-router.get('/', function(req, res){
+router.get('/about', function(req, res){
 	res.render('about', {title:'About'});
 });
 
 // contact view
-router.get('/', function(req, res){
+router.get('/contact', function(req, res){
 	res.render('contact', {title:'Contact'});
 });
 
